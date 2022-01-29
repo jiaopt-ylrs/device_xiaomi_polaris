@@ -7,9 +7,6 @@
 $(call inherit-product, device/xiaomi/polaris/device.mk)
 
 # Inherit some common PixelExperience stuff.
-EVO_MAINTAINER := jjpprrrr
-EVO_SUPPORT_URL := https://t.me/EvolutionXPolaris
-EVO_DONATE_URL := https://paypal.me/jjpprrrr
 WITH_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -21,7 +18,7 @@ DEVICE_REQUIRES_CARRIER_APPS := true
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := evolution_polaris
+PRODUCT_NAME := exthm_polaris
 PRODUCT_DEVICE := polaris
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi MIX 2S
