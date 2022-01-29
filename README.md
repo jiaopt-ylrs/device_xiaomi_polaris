@@ -1,5 +1,5 @@
 Copyright (C) 2018 The LineageOS Project
-## MIX2S exthmui device tree
+## MIX2S exthmui12 device tree
 Device configuration for Xiaomi MIX 2S
 =========================================
 
